@@ -1,0 +1,18 @@
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #section-to-print, #section-to-print * {
+      visibility: visible;
+    }
+  }
+
+.input-size {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.address {
+        background: grey;
+        padding: 5px;
+}
